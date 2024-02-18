@@ -118,6 +118,10 @@
     cursor: pointer;
 }
 
+.results__btn:focus-visible {
+    outline: 2px dashed var(--c-red-light);
+    outline-offset: 3px;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 30em) {
