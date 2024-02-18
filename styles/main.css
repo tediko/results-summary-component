@@ -1,0 +1,85 @@
+/* GLOBAL STYLES & VARIABLES*/
+:root {
+    --c-red-light: hsl(0, 100%, 67%);
+    --c-red-light-10: hsla(0, 100%, 67%,0.07);
+    --c-yellow-orangey: hsl(39, 100%, 56%);
+    --c-yellow-orangey-10: hsla(39, 100%, 56%,0.07);
+    --c-green-teal: hsl(166, 100%, 37%);
+    --c-green-teal1-10: hsla(166, 100%, 37%,0.07);
+    --c-white: hsl(0, 0%, 100%);
+    --c-white-60: hsla(0, 0%, 100%,0.6);
+    --c-white-40: hsla(0, 0%, 100%,0.4);
+    --c-blue-pale: hsl(221, 100%, 96%);
+    --c-blue-cobalt: hsl(234, 85%, 45%);
+    --c-blue-cobalt-85: hsla(234, 85%, 45%, 85%);
+    --c-blue-cobalt-5: hsla(234, 85%, 45%, 5%);
+    --c-blue-dark-gray: hsl(224, 30%, 27%);
+    --c-lavender-light: hsl(241, 100%, 89%);
+    --c-lavender-light-10: hsla(241, 100%, 89%,0.07);
+    --bg-blue-slate-royal: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    --bg-blue-violet-persian: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: var(--c-white);
+}
+
+/* HELPER CLASSES */
+/* HEADINGS */
+.heading {
+    font-weight: 700;
+    color: var(--c-white);
+}
+
+.heading--l {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.heading--m {
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+}
+
+.heading--sm {
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.heading--lightwhite {
+    color: var(--c-white-60);
+}
+
+.heading--darkblue {
+    color: var(--c-blue-dark-gray);
+}
+
+/* TEXT */
+.text {
+    font-size: clamp(1rem, 3vw, 1.125rem);
+}
+
+.text--white-40 {
+    color: var(--c-blue-dark-gray);
+}
+
+.text--red {
+    color: var(--c-red-light);
+}
+
+.text--yellow {
+    color: var(--c-yellow-orangey);
+}
+
+.text--green {
+    color: var(--c-green-teal);
+}
+
+.text--blue {
+    color: var(--c-blue-cobalt);
+}
+
+.text--lightwhite {
+    color: var(--c-lavender-light);
+}

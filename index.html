@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/results.css">
+  <title>#3 Results summary component</title>
+</head>
+<body>
+  <main class="results">
+    <div class="results__container">
+      <div class="results__score">
+        <h1 class="results__score-heading heading heading--m heading--lightwhite">Your Result</h1>
+        <div class="results__overall">
+          <p class="results__overall-points">76</p>
+          <p class="results__overall-points">of 100</p>
+        </div>
+        <h2 class="results__subheading heading heading--l">Great</h2>
+        <p class="results__text text text--lightwhite">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="results__summary">
+        <h2 class="results__summary-heading heading heading--m heading--darkblue">Summary</h2>
+        <ul class="results__list">
+          <li class="results__item results__item--bg-red">
+            <img src="./assets/images/icon-reaction.svg" alt="" class="results__icon">
+            <h3 class="results__name text--red heading--sm">Reaction</h3>
+            <p class="results__points text text--700">80&nbsp;&nbsp;<span>/ 100</span></p>
+          </li>
+          <li class="results__item results__item--bg-yellow">
+            <img src="./assets/images/icon-memory.svg" alt="" class="results__icon">
+            <h3 class="results__name text--yellow heading--sm">Memory</h3>
+            <p class="results__points text text--700">92&nbsp;&nbsp;<span>/ 100</span></p>
+          </li>
+          <li class="results__item results__item--bg-green">
+            <img src="./assets/images/icon-verbal.svg" alt="" class="results__icon">
+            <h3 class="results__name text--green heading--sm">Verbal</h3>
+            <p class="results__points text text--700">61&nbsp;&nbsp;<span>/ 100</span></p>
+          </li>
+          <li class="results__item results__item--bg-blue">
+            <img src="./assets/images/icon-visual.svg" alt="" class="results__icon">
+            <h3 class="results__name text--blue heading--sm">Visual</h3>
+            <p class="results__points text text--700">72&nbsp;&nbsp;<span>/ 100</span></p>
+          </li>
+        </ul>
+        <button class="results__btn"><span>Continue</span></button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
