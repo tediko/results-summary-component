@@ -99,6 +99,7 @@
 
 .results__points {
     font-weight: 700;
+    color: var(--c-blue-dark-gray);
 }
 
 .results__points span {
